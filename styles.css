@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    margin: 0;
+}
+
+li {
+    padding: 0.5rem;
+}
+
+body > .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+
+body > .header > .links {
+    margin: 0;
+}
+
+body > .signup {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+body > .signup > .signup-text {
+    display: flex;
+    flex-direction: column;
+}
+
+
+body > .signup > .signup-image > img{
+    display: flex;
+    width: 250px;
+}
