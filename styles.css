@@ -1,6 +1,8 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont;
 }
 
 ul {
@@ -12,6 +14,7 @@ ul {
 
 li {
     padding: 0.5rem;
+    color: lightgrey;
 }
 
 body > .header {
@@ -20,28 +23,152 @@ body > .header {
     justify-content: space-between;
     padding-left: 5rem;
     padding-right: 5rem;
+    background-color: #1F2937;
+    margin: 0;
+    color: white;
 }
 
 
 body > .header > .links {
+    align-self: center;
     margin: 0;
 }
 
 body > .signup {
+    padding: 3rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding-left: 5rem;
     padding-right: 5rem;
+    background-color: #1F2937;
+    margin: 0;
 }
 
 body > .signup > .signup-text {
     display: flex;
     flex-direction: column;
+    color: white;
 }
 
+body > .signup > .signup-text > h1, p {
+    margin: 0;
+}
+
+body > .signup > .signup-text > .button > button{
+    background-color: #3B82F6;
+    margin-top: 1rem;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    color: white;
+    font-weight: 700;
+    border-radius: 10px;
+    border: 0;
+}
 
 body > .signup > .signup-image > img{
     display: flex;
-    width: 250px;
+    height: 200px;
+    margin-left: 5rem;
 }
+
+body > .information {
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+body > .information > .title > h1 {
+    justify-self: center;
+}
+
+body > .information > .images {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: center;
+}
+
+body > .information > .images > .one, .two, .three, .four {
+    margin: 1rem;
+    width: 10rem;
+    flex-grow: 0;
+    text-align: center;
+}
+
+.img {
+    border-radius: 10px;
+    flex: 0;
+    width: 10rem;
+
+    border: 0.25rem solid #3B82F6;
+}
+body > .quote {
+    padding: 3rem;
+    display: flex;
+    background-color: #E5E7EB;
+    flex-direction: column;
+    align-items: center;
+}
+
+body > .quote > .text {
+    width: 40rem;
+}
+
+body > .quote > .text > h2 {
+    font-weight: 200;
+}
+
+body > .quote > .text > p {
+    justify-self: flex-end;
+}
+
+body > .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+    justify-content: space-between;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+body > .footer > .signup-footer {
+    display: flex;
+    background-color: #3B82F6;
+    border-radius: 10px;
+    width: 70rem;
+    padding: 3rem 7rem 3rem 7rem;
+    flex-direction: row;
+}
+
+body > .footer > .signup-footer > .signup-footer-text {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+body > .footer > .signup-footer > .signup-footer-text > h3, p {
+    margin: 0;
+}
+
+body > .footer > .signup-footer > .signup-footer-text > p {
+    font-weight: 200;
+}
+
+body > .footer > .signup-footer > .signup-footer-button {
+    align-self: center;
+    display: flex;
+    justify-self: flex-end;
+    margin-left: auto;
+}
+
+body > .footer > .signup-footer > .signup-footer-button > button {
+    background-color: #3B82F6;
+    border-radius: 10px;
+    padding: 0.25rem 1rem 0.25rem 1rem;
+    border-color: white;
+    color: white;
+    border-style: solid;
+}
+
+
